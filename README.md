@@ -1,9 +1,6 @@
-# ChatApp — Arham Fintech Intern Assessment
+# ChatApp 
 
 A real-time chat app built with **React + Vite**, **Capacitor** (Android), and **Supabase** (Auth, Database, Realtime).
-
----
-
 ## Supabase Setup
 
 ### 1. Create a project
@@ -90,7 +87,7 @@ Go to **Project Settings → API** and copy:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/chatapp.git
+git clone https://github.com/Dhavkanvin3/chatapp.git
 cd chatapp
 ```
 
@@ -103,7 +100,7 @@ npm install
 ### 3. Set up environment variables
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Open `.env` and fill in your keys:
@@ -125,10 +122,10 @@ Log in as `user1@test.com` in one window and `user2@test.com` in an incognito wi
 
 ---
 
-## Building the APK
+## Building the APK (Please note that since I cannot download Android studios I have used SDK tools for making the APK)
 
 ### Prerequisites
-- [Java JDK 17](https://adoptium.net) — install and make sure `java -version` works in terminal
+- Make sure to  install Java and make  `java -version` works in terminal
 - Android SDK command-line tools — [download here](https://developer.android.com/studio#command-tools), unzip and set `ANDROID_HOME`
 
 ### Steps
@@ -156,7 +153,7 @@ gradlew assembleDebug
 ### APK location
 
 ```
-android/app/build/outputs/apk/debug/app-debug.apk
+android/app/build/outputs/apk/app.apk
 ```
 
 ---
