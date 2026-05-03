@@ -187,4 +187,4 @@ capacitor.config.ts    # Capacitor configuration
 
 ---
 
-*Submitted by [Your Name] · Arham Fintech Pvt Ltd Intern Assessment*
+*Submitted by Dhaval S. Kanvinde
